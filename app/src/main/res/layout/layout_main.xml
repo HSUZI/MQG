@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.qingqu.wc.maqi.view.MyLinerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/my_layout"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_home"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_below="@id/titlebar"
+        android:descendantFocusability="blocksDescendants"
+        android:background="#fff"
+        />
+</com.qingqu.wc.maqi.view.MyLinerLayout>

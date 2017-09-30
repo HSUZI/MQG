@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@mipmap/welcome"
+    android:gravity="bottom|center_horizontal"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@mipmap/welcome_homepage"/>
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="115dp"
+            android:layout_height="55dp"
+            android:background="@mipmap/welcome_homepage_tv"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@mipmap/pinpai1"/>
+        <ImageView
+            android:id="@+id/iv_pinpai"
+            android:layout_width="115dp"
+            android:layout_height="55dp"
+            android:background="@mipmap/pinpai"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@mipmap/welcome_returns"/>
+        <ImageView
+            android:id="@+id/yingsi"
+            android:layout_width="115dp"
+            android:layout_height="55dp"
+            android:background="@mipmap/welcome_returns_tv"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@mipmap/welcome_contact_us"/>
+        <ImageView
+            android:id="@+id/iv_lianxi"
+            android:layout_width="115dp"
+            android:layout_height="55dp"
+            android:background="@mipmap/welcome_contact_us_tv"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@mipmap/welcome_sign_in"/>
+        <ImageView
+            android:id="@+id/iv_vip"
+            android:layout_width="115dp"
+            android:layout_height="55dp"
+            android:background="@mipmap/welcome_sign_in_tv"/>
+    </LinearLayout>
+
+</LinearLayout>

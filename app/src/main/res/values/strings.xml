@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">瑪奇購</string>
+    <string name="partly_colored_text">修改TextView中部分文字的&lt;font color=\'#ff0000\'&gt; &lt;big&gt;大&lt;/big&gt; &lt;small&gt;小&lt;/small&gt; &lt;/font&gt;和&lt;font color=\'#00ff00\'&gt;颜色&lt;/font&gt;，展示多彩效果！</string>
+</resources>
